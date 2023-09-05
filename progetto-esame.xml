@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "./tei_all.dtd">
+
+<TEI> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr" type="main"> Trois premières conférences à l'Université </title>
+                <title xml:lang="fr" type="sub"> (course d'ouverture, <date when="1891-11">novembre 1891</date>) </title>
+                <author xml:id="author">Ferdinand de Saussure</author>
+                <respStmt>
+                    <resp> Responsabilità di: </resp>
+                    <name type="person" xml:id="prof"> Angelo Mario Del Grosso </name>
+                    <name type="person"> Laura Angelica Barbato </name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <edition> Edizione digitale
+                    <date when="2023-03"> Aprile 2023 </date>
+                </edition>
+                <respStmt>
+                    <resp> Codifica di: </resp>
+                    <name> Laura Angelica Barbato </name>
+                </respStmt>
+                <respStmt>    
+                    <resp> Supervisione alla codifica: </resp>
+                    <name> Angelo Mario Del Grosso </name> 
+                </respStmt>
+                <respStmt>
+                    <resp> Trascrizione del <date when="2002"> 2002 </date> di: </resp>
+                    <name> Simon Bouquet </name>
+                    <name> Rudolf Engler </name>
+                </respStmt>
+                <respStmt>
+                    <resp> Traduzione del <date when="2006"> 2006 </date> di: </resp>
+                    <name> Emanuele Fadda </name>
+                </respStmt>
+            </editionStmt>
+
+            <extent xml:lang="fr"> 30 + 15 + 22 pages + 1 feuillet </extent>
+           
+            <publicationStmt>
+                <publisher xml:lang="fr">Bibliothèque de Ginève</publisher>
+                <pubPlace xml:lang="it">Ginevra</pubPlace>
+                <date>1950-1960</date>
+                <availability status="free">
+                    <p>Il sito della biblioteca di Ginevra è liberamente accessibile da chiunque.</p>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country> Svizzera </country>
+                        <settlement> Ginevra </settlement>
+                        <institution> Biblioteca di Ginevra </institution>
+                        <repository ref="http://institutions.ville-geneve.ch/fr/bge/"> Biblioteca di Ginevra </repository>
+                        <collection> Archives Ferdinand de Saussure </collection>
+                        <idno type="inventory"> 3951/1 </idno>
+                        <altIdentifier type="inventory">
+                            <idno> 17786/vtae78f994bf3242bef </idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author xml:lang="fr"> Ferdinand de Saussure </author>
+                            <title type="main" xml:lang="fr"> Trois premières conférences à l'Université </title>
+                            <title type="sub"> Troisième conférence </title>
+                            <docDate when="1891-11-13"> 13-11-1891 </docDate>
+                            <textLang mainLang="fr"> French </textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <support> Fogli di <material> carta </material></support>
+                                <extent>
+                                    <measureGrp type="notebook" unit="pages" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef"> 
+                                        <measure quantity="30">30 pages +</measure>
+                                        <measure quantity="15">15 pages +</measure>
+                                        <measure quantity="22">22 pages</measure>
+                                    </measureGrp>
+                                </extent>
+                                <foliation> I numeri sono scritti a mano in alto a destra di ciascuna pagina </foliation>
+                                <condition> Le pagine risultano in buone condizioni e ben conservate </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="24">Le pagine hanno tra le 24 e 25 righe di testo scritto a mano.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1"> 
+                            <handNote scope="major"> Le pagine sono interamente scritte a mano da <persName> Ferdinand de Saussure </persName></handNote>
+                        </handDesc>
+                        <typeDesc>
+                            <typeNote> Scritte in corsivo con inchiostro nero </typeNote>
+                        </typeDesc>
+                        <additions> Nelle pagine molto frequentemente sono presenti delle aggiunte ai margini del testo principale </additions>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p> Pagine scritte all'<origPlace> università di Ginevra </origPlace> nel <origDate> 1891 </origDate></p>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <creation>
+                <date when="1891-11"> Novembre 1891 </date>
+                <rs type="city"> Ginevra </rs>
+            </creation>
+            <langUsage>
+                <language ident="fr"> Francese </language>
+            </langUsage>
+            <textDesc>
+                <channel mode="sw"/>
+                <constitution type="single"/>
+                <derivation type="original"/>
+                <domain type="education"/>
+                <factuality type="fact"/>
+                <interaction type="partial" active="singular" passive="group"/>
+                <preparedness type="script"/>
+                <purpose type="persuade" degree="high"/>
+            </textDesc>
+            <settingDesc>
+                <setting>
+                    <placeName> Ginevra </placeName>
+                    <date> Novembre 1891 </date>
+                    <locale> In un'aula dell'università di Ginevra </locale>
+                    <activity> Lezione universitaria </activity>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+
+    </teiHeader>
+
+    <facsimile> 
+        <surface>
+            <!-- Primo paragrafo pagina 8 -->
+            <graphic url='firstpage.png' width='1020px' height='820px' xml:id="pg8"/> 
+            <zone ulx="221" uly="64" lrx="942" lry="114" xml:id="pg8_riga1_par1"/>          <!-- Prima riga intera -->
+            <zone ulx="660" uly="65" lrx="706" lry="113" xml:id="pg8_txtDel1riga"/>         <!-- Testo cancellato nella prima riga -->                   
+            <zone ulx="653" uly="7" lrx="956" lry="66" xml:id="pg8_txtAdd1riga_par1"/>      <!-- Testo aggiunto sopra la prima riga -->                 
+            <zone ulx="545" uly="114" lrx="874" lry="145" xml:id="pg8_txtAdd2riga_par1"/>   <!-- Testo aggiunto sopra la seconda riga -->
+            <zone ulx="233" uly="146" lrx="964" lry="184" xml:id="pg8_riga2_par1"/>         <!-- Seconda riga intera-->
+            <zone ulx="534" uly="147" lrx="581" lry="174" xml:id="pg8_txtDel2riga_par1"/>   <!-- Testo cancellato nella seconda riga -->
+            <zone ulx="314" uly="182" lrx="486" lry="210" xml:id="pg8_txtAdd3riga_par1"/>   <!-- Testo aggiunto sopra la terza riga -->
+            <zone ulx="230" uly="204" lrx="935" lry="237" xml:id="pg8_riga3_par1"/>         <!-- Terza riga intera -->
+            <zone ulx="527" uly="235" lrx="692" lry="261" xml:id="pg8_txtAdd4riga_par1"/>   <!-- Testo aggiunto sopra la quarta riga -->
+            <zone ulx="234" uly="259" lrx="973" lry="291" xml:id="pg8_riga4_par1"/>         <!-- Quarta riga intera-->   
+            <zone ulx="482" uly="262" lrx="660" lry="288" xml:id="pg8_txtDel4riga1_par1"/>  <!-- Primo testo cancellato nella quarta riga -->
+            <zone ulx="882" uly="254" lrx="967" lry="284" xml:id="pg8_txtDel4riga2_par1"/>  <!-- Secondo testo cancellato nella quarta riga -->
+            <zone ulx="557" uly="293" lrx="723" lry="323" xml:id="pg8_txtAdd5riga_par1"/>   <!-- Testo aggiunto sopra la quinta riga -->
+            <zone ulx="231" uly="318" lrx="945" lry="350" xml:id="pg8_riga5_par1"/>         <!-- Quinta riga intera-->
+            <zone ulx="236" uly="316" lrx="329" lry="345" xml:id="pg8_txtDel5riga_par1"/>   <!-- Testo cancellato nella quinta riga -->
+            <zone ulx="33" uly="355" lrx="951" lry="417" xml:id="pg8_riga6_par1"/>          <!-- Sesta riga intera compresa di testo aggiunto -->
+            <zone ulx="47" uly="361" lrx="249" lry="398" xml:id="pg8_txtAdd6riga_par1"/>    <!-- Testo aggiunto lato sinistra sesta riga -->
+            <zone ulx="126" uly="395" lrx="231" lry="425" xml:id="pg8_txtDel6riga1_par1"/>  <!-- Primo testo cancellato nella sesta riga -->
+            <zone ulx="227" uly="383" lrx="303" lry="404" xml:id="pg8_txtDel6riga2_par1"/>  <!-- Secondo testo cancellato nella sesta riga -->
+            <zone ulx="317" uly="377" lrx="344" lry="428" xml:id="pg8_txtDel6riga3_par1"/>  <!-- Terzo testo cancellato nella sesta riga con x -->
+            <zone ulx="313" uly="356" lrx="417" lry="377" xml:id="pg8_txtDel6riga4_par1"/>  <!-- Testo cancellato nella sesta riga sopra x -->
+            <zone ulx="71" uly="418" lrx="973" lry="477" xml:id="pg8_riga7_par1"/>          <!-- Settima riga intera -->
+            <zone ulx="61" uly="436" lrx="205" lry="502" xml:id="pg8_txtAdd7riga_par1"/>    <!-- Primo testo aggiunto a sinistra della settima riga -->
+            <zone ulx="273" uly="424" lrx="342" lry="450" xml:id="pg8_txtAdd7riga1_par1"/>  <!-- Testo aggiunto sopra la settima riga -->
+            <zone ulx="501" uly="412" lrx="595" lry="442" xml:id="pg8_txtAdd7riga2_par1"/>  <!-- Testo aggiunto sopra la settima riga -->
+            <zone ulx="223" uly="447" lrx="376" lry="473" xml:id="pg8_txtDel7riga1_par1"/>  <!-- Primo testo cancellato nella settima riga -->
+            <zone ulx="506" uly="437" lrx="542" lry="465" xml:id="pg8_txtDel7riga2_par1"/>  <!-- Secondo testo cancellato nella settima riga -->
+            <zone ulx="238" uly="479" lrx="933" lry="527" xml:id="pg8_riga8_par1"/>         <!-- Ottava riga intera -->
+            <zone ulx="221" uly="532" lrx="964" lry="577" xml:id="pg8_riga9_par1"/>         <!-- Nona riga intera -->
+            <zone ulx="222" uly="594" lrx="605" lry="638" xml:id="pg8_riga10_par1"/>        <!-- Decima riga prima parte -->
+            <zone ulx="614" uly="586" lrx="990" lry="638" xml:id="pg8_riga10_par1_2"/>      <!-- Decima riga seconda parte -->
+            <zone ulx="225" uly="645" lrx="973" lry="692" xml:id="pg8_riga11_par1"/>        <!-- Undicesima riga intera -->
+            <zone ulx="224" uly="699" lrx="945" lry="745" xml:id="pg8_riga12_par1"/>        <!-- Dodicesima riga intera -->
+            <zone ulx="63" uly="748" lrx="977" lry="809" xml:id="pg8_riga13_par1"/>         <!-- Tredicesima riga intera -->
+            <zone ulx="56" uly="767" lrx="226" lry="815" xml:id="pg8_txtAdd13riga_par1"/>   <!-- Testo aggiunto a sinistra della tredicesima riga -->
+        </surface>
+        <surface>
+            <!-- Secondo paragrafo pagina 8 -->
+            <graphic url='secondpage.png' width='1020px' height='820px' xml:id="pr2"/>
+            <zone ulx="301" uly="85" lrx="956" lry="141" xml:id="pr2_riga1_pg8"/>           <!-- Prima riga intera -->
+            <zone ulx="233" uly="152" lrx="951" lry="201" xml:id="pr2_riga2_pg8"/>          <!-- Seconda riga intera -->
+            <zone ulx="233" uly="213" lrx="967" lry="263" xml:id="pr2_riga3_pg8"/>          <!-- Terza riga intera -->
+            <zone ulx="480" uly="208" lrx="962" lry="255" xml:id="pr2_txtDel3riga_pg8"/>    <!-- Testo cancellato nella terza riga -->
+            <zone ulx="238" uly="264" lrx="943" lry="313" xml:id="pr2_riga4_pg8"/>          <!-- Quarta riga intera -->
+            <zone ulx="221" uly="313" lrx="686" lry="363" xml:id="pr2_riga5_pg8"/>          <!-- Quinta riga prima parte -->
+            <zone ulx="709" uly="303" lrx="961" lry="356" xml:id="pr2_riga5_pg8_2"/>        <!-- Quinta riga seconda parte -->
+            <zone ulx="217" uly="368" lrx="969" lry="424" xml:id="pr2_riga6_pg8"/>          <!-- Sesta riga intera -->
+            <zone ulx="228" uly="429" lrx="952" lry="480" xml:id="pr2_riga7_pg8"/>          <!-- Settima riga intera -->
+            <zone ulx="230" uly="483" lrx="982" lry="535" xml:id="pr2_riga8_pg8"/>          <!-- Ottava riga intera -->
+            <zone ulx="41" uly="538" lrx="991" lry="599" xml:id="pr2_riga9_pg8"/>           <!-- Nona riga intera -->
+            <zone ulx="32" uly="559" lrx="218" lry="623" xml:id="pr2_txtAdd9riga_pg8"/>     <!-- Testo aggiunto alla sinistra della nona riga -->
+            <zone ulx="231" uly="604" lrx="986" lry="651" xml:id="pr2_riga10_pg8"/>         <!-- Decima riga intera -->
+            <zone ulx="309" uly="656" lrx="981" lry="713" xml:id="pr2_riga11_pg8"/>         <!-- Undicesima riga intera -->
+            <zone ulx="445" uly="658" lrx="555" lry="716" xml:id="pr2_txtDel11riga_pg8"/>   <!-- Testo cancellato undicesima riga -->
+        </surface>
+        <surface>
+            <!-- Primo e secondo paragrafo pagina 9-->
+            <graphic url='thirdpage.png' width='1020px' height='820px' xml:id="pg9"/>
+            <zone ulx="293" uly="79" lrx="947" lry="134" xml:id="pg9_riga1"/>               <!-- Prima riga intera -->
+            <zone ulx="261" uly="142" lrx="894" lry="201" xml:id="pg9_riga2"/>              <!-- Seconda riga intera -->
+            <zone ulx="249" uly="201" lrx="945" lry="255" xml:id="pg9_riga3"/>              <!-- Terza riga intera -->
+            <zone ulx="249" uly="259" lrx="957" lry="303" xml:id="pg9_riga4"/>              <!-- Quarta riga intera -->
+            <zone ulx="249" uly="304" lrx="951" lry="351" xml:id="pg9_riga5"/>              <!-- Quinta riga intera -->
+            <zone ulx="250" uly="354" lrx="921" lry="408" xml:id="pg9_riga6"/>              <!-- Sesta riga intera -->
+            <zone ulx="603" uly="355" lrx="653" lry="400" xml:id="pg9_txtDel6riga"/>        <!-- Testo cancellato nella sesta riga -->
+            <zone ulx="251" uly="412" lrx="793" lry="451" xml:id="pg9_riga7"/>              <!-- Settima riga intera -->
+            <zone ulx="325" uly="468" lrx="1008" lry="540" xml:id="pg9_riga8"/>             <!-- Ottava riga intera -->
+            <zone ulx="231" uly="540" lrx="980" lry="600" xml:id="pg9_riga9"/>              <!-- Nona riga intera -->
+            <zone ulx="244" uly="604" lrx="977" lry="672" xml:id="pg9_riga10"/>             <!-- Decima riga intera -->
+            <zone ulx="245" uly="676" lrx="1009" lry="736" xml:id="pg9_riga11"/>            <!-- Undicesima riga intera -->
+            <zone ulx="241" uly="740" lrx="737" lry="785" xml:id="pg9_riga12"/>             <!-- Dodicesima riga intera -->
+        </surface>
+        <surface>
+            <!-- Terzo e quarto paragrafo pagina 9 -->
+            <graphic url='lastpage.png' width='1020px' height='820px' xml:id="p34"/>
+            <zone ulx="321" uly="42" lrx="986" lry="96" xml:id="p34_riga1_pg9"/>             <!-- Prima riga intera -->
+            <zone ulx="256" uly="109" lrx="980" lry="148" xml:id="p34_riga2_pg9"/>           <!-- Seconda riga intera -->
+            <zone ulx="231" uly="162" lrx="958" lry="216" xml:id="p34_riga3_pg9"/>           <!-- Terza riga intera -->
+            <zone ulx="316" uly="224" lrx="980" lry="271" xml:id="p34_riga4_pg9"/>           <!-- Quarta riga intera -->
+            <zone ulx="21" uly="207" lrx="225" lry="322" xml:id="p34_txtAdd4riga_pg9"/>      <!-- Testo aggiunto a sinistra della quarta riga -->
+            <zone ulx="239" uly="278" lrx="992" lry="328" xml:id="p34_riga5_pg9"/>           <!-- Quinta riga intera -->
+            <zone ulx="241" uly="332" lrx="992" lry="386" xml:id="p34_riga6_pg9"/>           <!-- Sesta riga intera -->
+            <zone ulx="885" uly="333" lrx="991" lry="378" xml:id="p34_txtDel6riga_pg9"/>     <!-- Testo cancellato nella sesta riga -->
+            <zone ulx="167" uly="388" lrx="993" lry="449" xml:id="p34_riga7_pg9"/>           <!-- Settima riga esclusa la parte aggiunta sulla sinistra -->
+            <zone ulx="27" uly="396" lrx="165" lry="473" xml:id="p34_txtAdd7riga_pg9"/>      <!-- Testo aggiunto a sinistra della settima riga -->
+            <zone ulx="695" uly="388" lrx="841" lry="409" xml:id="p34_txtAdd7riga1_pg9"/>    <!-- Testo aggiungo sopra la settima riga -->
+            <zone ulx="654" uly="407" lrx="991" lry="430" xml:id="p34_txtDel7riga_pg9"/>     <!-- Testo cancellato nella settima riga -->
+            <zone ulx="228" uly="451" lrx="985" lry="496" xml:id="p34_riga8_pg9"/>           <!-- Ottava riga intera -->
+            <zone ulx="254" uly="455" lrx="399" lry="492" xml:id="p34_txtDel8riga1_pg9"/>    <!-- Primo testo cancellato nell'ottava riga -->
+            <zone ulx="807" uly="456" lrx="975" lry="496" xml:id="p34_txtDel8riga2_pg9"/>    <!-- Secondo testo cancellato nell'ottava riga -->
+            <zone ulx="240" uly="495" lrx="853" lry="553" xml:id="p34_riga9_pg9"/>           <!-- Nona riga parte prima -->
+            <zone ulx="861" uly="494" lrx="993" lry="547" xml:id="p34_riga9_pg9_2"/>         <!-- Nona riga parte seconda -->
+            <zone ulx="251" uly="505" lrx="406" lry="543" xml:id="p34_txtDel9riga1_pg9"/>    <!-- Primo testo cancellato nella nona riga -->
+            <zone ulx="586" uly="513" lrx="641" lry="547" xml:id="p34_txtDel9riga2_pg9"/>    <!-- Secondo testo cancellato nella nona riga -->
+            <zone ulx="33" uly="539" lrx="281" lry="747" xml:id="p34_txtAdd9riga_pg9"/>      <!-- Testo aggiunto a sinistra del quarto paragrafo che continua la nona riga -->
+            <zone ulx="119" uly="534" lrx="207" lry="559" xml:id="p34_txtAdd9riga1_pg9"/>    <!-- Testo aggiunto al testo aggiunto -->
+            <zone ulx="328" uly="562" lrx="949" lry="617" xml:id="p34_riga10_pg9"/>          <!-- Decima riga intera -->
+            <zone ulx="239" uly="618" lrx="949" lry="670" xml:id="p34_riga11_pg9"/>          <!-- Undicesima riga intera -->
+            <zone ulx="244" uly="675" lrx="965" lry="723" xml:id="p34_riga12_pg9"/>          <!-- Dodicesima riga intera -->
+            <zone ulx="231" uly="726" lrx="1001" lry="771" xml:id="p34_riga13_pg9"/>         <!-- Tredicesima riga intera -->
+        </surface>  
+    </facsimile>
+
+    <text>
+        <group xml:id="container"> <!--Testo e traduzione delle pagine 8 e 9-->
+            <group xml:lang="fr" xml:id="textFra"> <!--Testo in francese delle pagine 8 e 9-->
+                <text>
+                    <body>
+                        <!--Pagina 8-->
+                        <div type="page" n="8" xml:lang="fr">
+                            <!--Inizio della pagina scritta a mano-->
+                            <pb n="8"/>
+                                <!--Numero della pagina-->
+                                <ab xml:id="numpage8" facs="pg8_numpage">
+                                    <fw type="pageNum" rend="align(left)"> 8 </fw>
+                                </ab>
+                                <!--Primo paragrafo di pagina 8-->
+                                <ab xml:id="textblock1" n="1" corresp="ita_textblock1 page8">
+                                    <lb/>
+                                        <l n="1" facs="pg8_riga1_par1">
+                                            <date when="13-11-1891" resp="#prof"> au moment meme ou 
+                                                <subst>
+                                                    <del rend="overstrike" facs="pg8_txtDel1riga">je</del>
+                                                    <add place="supralinear" facs="pg8_txtAdd1riga_par1">
+                                                        j'ai l'honneur de <choice><abbr type="suspension">v<am>.</am></abbr><expan resp="#prof">vous</expan></choice>
+                                                    </add>
+                                                </subst> parler<pc resp="#author" cert="high">,</pc>
+                                            </date> je
+                                        </l>
+                                    <lb/>
+                                        <l n="2" facs="pg8_riga2_par1">
+                                            suis persuadé<pc resp="#author" cert="high">,</pc> 
+                                            <subst>
+                                                <del rend="overstrike" facs="pg8_txtDel2riga_par1">et</del>
+                                                <add place="supralinear" facs="pg8_txtAdd2riga_par1"> je suis à vrai dire <term ref="#absolument">absolument</term></add>
+                                            </subst> certain<pc style="display:none">,</pc> que<pc resp="#prof">,</pc> malgré
+                                        </l>
+                                    <lb/>
+                                        <l n="3" facs="pg8_riga3_par1">
+                                            tout <add place="supralinear" facs="pg8_txtAdd3riga_par1">ce que je disais<pc resp="#prof">,</pc></add>
+                                            la <term ref="#dénomination">dénomination</term> de <lang><emph rend="underline">français</emph></lang>
+                                        </l>
+                                    <lb/>
+                                        <l n="4" facs="pg8_riga4_par1"> 
+                                            et <lang><emph rend="underline">latin</emph></lang> est 
+                                            <subst>
+                                                <del rend="overstrike" facs="pg8_txtDel4riga1_par1"><gap reason="illegible"/></del>
+                                                <add place="supralinear" facs="pg8_txtAdd4riga_par1"> infiniment </add>
+                                            </subst> plus forte<pc resp="#author" cert="high">,</pc> <del rend="overstrike" facs="pg8_txtDel4riga2_par1"><gap reason="illegible" extent="1 word"/></del>
+                                        </l>
+                                    <lb/>
+                                        <l n="5" facs="pg8_riga5_par1">
+                                            <del rend="overstrike" facs="pg8_txtDel5riga_par1"><gap reason="illegible" extent="1 word"/></del> restera toujours 
+                                            <add place="supralinear" facs="pg8_txtAdd5riga_par1"> ou longtemps </add> mille fois plus
+                                        </l> 
+                                    <lb/>
+                                        <l n="6" facs="pg8_riga6_par1">
+                                            <subst> 
+                                                <del rend="overstrike" facs="pg8_txtDel6riga1_par1"><gap reason="illegible"/></del>
+                                                <del rend="overstrike" facs="pg8_txtDel6riga2_par1"><gap reason="illegible"/></del>
+                                                <add place="left margin" facs="pg8_txtAdd6riga_par1"> <pc resp="#author">,</pc>puissante sur votre <term ref="#esprit">esprit</term></add>
+                                            </subst>
+                                            <del rend="overstrike" facs="pg8_txtDel6riga3_par1"><gap reason="illegible" quantity="1" unit="character"/></del>
+                                            <del rend="overstrike" facs="pg8_txtDel6riga4_par1"><gap reason="illegible"/></del>
+                                            que toutes les <term ref="#instances">instances</term> auxquelles 
+                                        </l>
+                                    <lb/>
+                                        <l n="7" facs="pg8_riga7_par1">
+                                            <add place="left margin" facs="pg8_txtAdd7riga_par1">je puis</add> 
+                                            <subst>
+                                                <del rend="overstrike" facs="pg8_txtDel7riga1_par1"><gap reason="illegible" extent="2 words"/></del>
+                                                <add place="supralinear" facs="pg8_txtAdd7riga1_par1"> me </add>
+                                            </subst>
+                                            livrer 
+                                            <subst>
+                                                <del rend="overstrike" facs="pg8_txtDel7riga2_par1"><gap reason="illegible" extent="1 word"/></del>
+                                                <add place="supralinear" facs="pg8_txtAdd7riga2_par1"> comme </add>
+                                            </subst>
+                                            <term ref="#linguiste">linguiste</term><pc resp="#author" cert="high">,</pc> puor arriver 
+                                        </l>
+                                    <lb/>
+                                        <l n="8" facs="pg8_riga8_par1">
+                                            à faire couler ce <term ref="#dualisme">dualisme</term> de
+                                        </l>
+                                    <lb/>
+                                        <l n="9" facs="pg8_riga9_par1">
+                                            carton<pc resp="#author" cert="high">,</pc> qui nous obsède<pc resp="#author" cert="high">,</pc> sous le nom 
+                                        </l>
+                                    <lb/>
+                                        <l n="10" facs="pg8_riga10_par1">
+                                            de <lang><emph rend="underline">français</emph></lang> et <lang><emph rend="underline">latin</emph></lang>.
+                                        </l>
+                                </ab>
+
+                                <ab xml:id="textblock2" n="2" corresp="ita_textblock2 page8">
+                                        <l facs="pg8_riga10_par1_2">
+                                            <g>-</g> <date resp="#prof">Il y aura un jour</date>
+                                        </l>
+                                    <lb/>
+                                        <l n="11" facs="pg8_riga11_par1">
+                                            un <term ref="#livre">livre</term> spécial et très intéressant à 
+                                        </l>
+                                    <lb/>
+                                        <l n="12" facs="pg8_riga12_par1">
+                                            écrire sur le <term ref="#rôle">rôle</term> du <term ref="#mot"><emph rend="underline">mot</emph></term> comme 
+                                        </l>
+                                    <lb/>
+                                        <l n="13" facs="pg8_riga13_par1">
+                                            <add place="left margin" facs="pg8_txtAdd13riga_par1"><term ref="#principal">principal</term></add>
+                                            perturbateur de la <term ref="#science_des_mots">science des mots</term>.
+                                        </l>
+                                </ab>
+                            
+                                <ab xml:id="textblock3" n="3" corresp="ita_textblock3">
+                                    <lb/>
+                                        <l n="14" facs="pr2_riga1_pg8">
+                                            <space/> L'ensemble des <term ref="#considérations">considérations</term>
+                                        </l> 
+                                    <lb/>
+                                        <l n="15" facs="pr2_riga2_pg8">
+                                            de ce genre se résument pour nous dans
+                                        </l>
+                                    <lb/>
+                                        <l n="16" facs="pr2_riga3_pg8">
+                                            le <term ref="#principe_universel">principe</term> <del rend="overstrike" facs="pr2_txtDel3riga_pg8"> de <term rend="underline">continuité</term> de la langue</del>
+                                        </l>
+                                    <lb/>    
+                                        <l n="17" facs="pr2_riga4_pg8">
+                                            <term ref="#principe_universel">universel</term> <g>-</g> de l'<term ref="#absolue_continuité"><emph rend="underline">absolue continuité</emph></term>
+                                        </l>
+                                    <lb/>    
+                                        <l n="18" facs="pr2_riga5_pg8">
+                                            <term ref="#absolue_continuité">de la langue dans le temps</term>. 
+                                        </l>
+                                </ab>
+
+                                <ab xml:id="textblock4" n="4" corresp="ita_textblock4">
+                                        <l facs="pr2_riga5_pg8_2">
+                                            Avec ce <choice><orig xml:id="apice">1er</orig><reg resp="#prof">premier</reg></choice>
+                                        </l>
+                                    <lb/>
+                                        <l n="19" facs="pr2_riga6_pg8">
+                                            <term ref="#principe">principe</term> venait se combiner le second<pc resp="#author" cert="high">,</pc>
+                                        </l>
+                                    <lb/>
+                                        <l n="20" facs="pr2_riga7_pg8">
+                                            de la <term ref="#continuelle transformation"><emph rend="underline">continuelle transformation</emph> de la</term>
+                                        </l>
+                                    <lb/>
+                                        <l n="21" facs="pr2_riga8_pg8">
+                                            <term ref="#continuelle transformation">langue dans le temps</term><choice><orig>;</orig><reg>,</reg></choice>
+                                            dépendant elle-meme <pc resp="#prof">,</pc>
+                                        </l>
+                                    <lb/>
+                                        <l n="22" facs="pr2_riga9_pg8">
+                                            <add place="left margin" facs="pr2_txtAdd9riga_pg8">je le rappelle<pc resp="#author" cert="high">,</pc></add> de 
+                                            <choice><orig>2</orig><reg resp="#prof">deux</reg></choice> 
+                                            <term ref="#agents">agents distincts</term><choice><orig>:</orig><reg>,</reg></choice>
+                                            l'un <term ref="#psychologique"><emph rend="underline"><choice><abbr>psychologiq<am>.</am>
+                                            </abbr><expan resp="#prof">psychologique</expan></choice></emph></term>
+                                        </l>
+                                    <lb/>
+                                        <l n="23" facs="pr2_riga10_pg8">
+                                            se concentrant sur l'<term ref="#opération">&#34;opération d'analogie&#34;</term><pc resp="#prof">,</pc>
+                                        </l>
+                                    <lb/>
+                                        <l n="24" facs="pr2_riga11_pg8">
+                                            <g>-</g> l'autre <del rend="overstrike" facs="pr2_txtDel11riga_pg8">physi</del>
+                                            <term ref="#mécanique"><emph rend="underline">mécanique</emph></term><pc resp="#author" cert="high">,</pc> <term ref="#physiologique"><emph rend="underline">physiologique</emph></term><pc resp="#author" cert="high">,</pc> 
+                                        </l>  
+                                </ab>
+                        </div>
+                        <!-- Paragrafo 4 si conclude nella pagina successiva -->
+                        <div type="page" n="9" xml:lang="fr">
+                            <pb n="9"/>
+                                <!-- Numero della pagina -->
+                                <ab xml:id="numpage9" facs="pg9_numPage">
+                                    <fw type="pageNum" rend="align(left)"> 9 </fw>
+                                </ab>
+                                <ab xml:id="textblock5" n="5" corresp="ita_textblock5">
+                                    <lb/>
+                                        <l n="1" facs="pg9_riga1">
+                                            <space/>ayant son expression dans les 
+                                        </l>
+                                    <lb/>
+                                        <l n="2" facs="pg9_riga2">
+                                            <term ref="#changements">changements phonétiques</term>. <g>-</g>
+                                        </l>
+                                </ab>  
+                                <ab xml:id="textblock6" n="6" corresp="ita_textblock6">
+                                    <lb/>
+                                        <l n="3" facs="pg9_riga3">
+                                            L'un agissant de plus d'une
+                                        </l>
+                                    <lb/>
+                                        <l n="4" facs="pg9_riga4">
+                                            manière perfaitement <term ref="#indépendante">indépendante</term>
+                                        </l>
+                                    <lb/>
+                                        <l n="5" facs="pg9_riga5">
+                                            de l'autre<pc resp="#prof">,</pc> <g>-</g> si ce n'est dans quelques 
+                                        </l>
+                                    <lb/>
+                                        <l n="6" facs="pg9_riga6">
+                                            cas très spéciaux<pc resp="#author" cert="high">,</pc> <del rend="overstrike" facs="pg9_txtDel6riga"><gap reason="illegible"/></del> très remarqués<pc resp="#author" cert="high">,</pc> 
+                                        </l>
+                                    <lb/>
+                                        <l n="7" facs="pg9_riga7">
+                                            mais véritablment exceptionnels.
+                                        </l>
+                                </ab>
+
+                                <ab xml:id="textblock7" n="7" corresp="ita_textblock7">
+                                    <lb/>
+                                        <l n="8" facs="pg9_riga8">
+                                            <space/>Le <term ref="#facteur">facteur</term> que nous avons jusqu'à
+                                        </l>
+                                    <lb/>
+                                        <l n="9" facs="pg9_riga9">
+                                            présent <term ref="#systématiquement">systématiquement</term> omis<pc style="display:none">,</pc> est 
+                                        </l>
+                                    <lb/>
+                                        <l n="10" facs="pg9_riga10">
+                                            celui de l'<term ref="#espace"><emph rend="underline">espace</emph></term><pc resp="#author" cert="high">,</pc> de la <term ref="#géographique">distance</term> 
+                                        </l>
+                                    <lb/>
+                                        <l n="11" facs="pg9_riga11">
+                                            <term ref="#géographique"><emph rend="underline">géographique</emph></term><pc resp="#author" cert="high">,</pc> venant se combiner avec 
+                                        </l>
+                                    <lb/>
+                                        <l n="12" facs="pg9_riga12">
+                                            la <term ref="#chronologique">distance <emph rend="underline">chronologique</emph></term>.
+                                        </l>
+                                </ab>
+
+                                <ab xml:id="textblock8" n="8" corresp="ita_textblock8">
+                                    <lb/>
+                                        <l n="13" facs="p34_riga1_pg9">
+                                            <space/>Nous avons constaté que<pc resp="#prof">,</pc> étant 
+                                        </l>
+                                    <lb/>
+                                        <l n="14" facs="p34_riga2_pg9">
+                                            donné un certain <term ref="#état">état de langue</term> 
+                                        </l>
+                                    <lb/>
+                                        <l n="15" facs="p34_riga3_pg9">
+                                            quelconque<pc resp="#author" cert="high">,</pc> en un <term ref="#point">point déterminé</term><pc resp="#author" cert="high">,</pc>
+                                        </l>
+                                    <lb/>
+                                        <l n="16" facs="p34_riga4_pg9">
+                                            <add place="left margin" facs="p34_txtAdd4riga_pg9">
+                                            <choice><abbr>p<am>.</am> ex<am>.</am></abbr><expan resp="#prof">par exemple</expan></choice>
+                                            en un village retiré des <placeName resp="#prof">Alpes</placeName></add><pc resp="#prof">,</pc> <g>-</g> si on repasse au meme endroit 
+                                        </l>
+                                    <lb/>  
+                                        <l n="17" facs="p34_riga5_pg9">
+                                            <date resp="#prof"><choice><orig>100</orig><reg resp="#prof">cent</reg></choice> ou 
+                                            <choice><orig>200</orig><reg resp="#prof">deux</reg></choice> cents ans après</date><pc resp="#author" cert="high">,</pc> cet <term ref="#de_langue">état</term> 
+                                        </l>
+                                    <lb/>
+                                        <l n="18" facs="p34_riga6_pg9">
+                                            <term ref="#de_langue">de langue</term>, a <term ref="#changé">inévitablment changé</term><pc resp="#author" cert="high">,</pc>
+                                            <del rend="overstrike" facs="p34_txtDel6riga_pg9"><gap reason="illegible" extent="1 word"/></del>
+                                        </l>
+                                    <lb/>
+                                        <l n="19" facs="p34_riga7_pg9">
+                                            <add place="left margin" facs="p34_txtAdd7riga_pg9">dans quelque mesure<pc resp="#author" cert="high">,</pc> meme</add> en <term ref="#absence">l'absence</term> de toutes 
+                                            <subst>
+                                                <del rend="overstrike" facs="p34_txtDel7riga_pg9"><gap reason="illegible" extent="2 words"/></del>
+                                                <add place="supralinear" facs="p34_txtAdd7riga1_pg9"><term ref="#causes">causes</term></add>
+                                            </subst>
+                                        </l>
+                                    <lb/>
+                                        <l n="20" facs="p34_riga8_pg9">
+                                            <del rend="overstrike" facs="p34_txtDel8riga1_pg9"><gap reason="illegible" extent="1 word"/></del>
+                                            <term ref="#particulières">particulières</term><pc style="display:none">,</pc> pouvant <del rend="overstrike" facs="p34_txtDel8riga2_pg9"><gap reason="illegible" extent="2 words"/></del>
+                                        </l>
+                                    <lb/>
+                                        <l n="21" facs="p34_riga9_pg9">
+                                            <del rend="overstrike" facs="p34_txtDel9riga1_pg9"><gap reason="illegible" extent="1 word"/></del>
+                                            favoriser 
+                                            <del rend="overstrike" facs="p34_txtDel9riga2_pg9"><gap reason="illegible" quantity="2" unit="character"/></del>
+                                            le <term ref="#changement">changement</term>.
+                                        </l>
+                                </ab>
+
+                                <ab xml:id="textblock9" n="9" corresp="ita_textblock9">
+                                    <l facs="p34_riga9_pg9_2">
+                                        Le <term ref="#changement1">chan<pc force="strong">-</pc></term>
+                                    </l>
+                                    <l n="22">
+                                        <add place="left margin" facs="p34_txtAdd9riga_pg9">
+                                        <term ref="#changement1">gement</term> <add place="supralinear" facs="p34_txtAdd9riga1_pg9">survenu</add> sera du 
+                                        reste <term ref="#réductible">réductible</term> à un certain nombre de <term ref="#phénomènes">phéno<pc force="strong">=</pc>
+                                        mènes</term> précis.</add>
+                                    </l>
+                                </ab>
+                                
+                                <ab xml:id="textblock10" n="10" corresp="ita_textblock10">
+                                    <lb/>
+                                        <l n="23" facs="p34_riga10_pg9">
+                                            <space/>Mais il reste à contater que<pc resp="#prof">,</pc> si 
+                                        </l>
+                                    <lb/>    
+                                        <l n="24" facs="p34_riga11_pg9">
+                                            une meme <term ref="#langue">langue</term> est répandue <term>à</term>
+                                        </l>
+                                    <lb/>
+                                        <l n="25" facs="p34_riga12_pg9">
+                                            <term ref="#moment">un moment donné</term><pc style="display:none">,</pc> sur une certaine
+                                        </l> 
+                                    <lb/>
+                                        <l n="26" facs="p34_riga13_pg9">
+                                            étendue de <term ref="#territoire">territoire</term><pc resp="#author" cert="high">,</pc> le <term ref="#résultant">résultant</term> de ce <!-- Testo continua nella pagina successiva -->
+                                        </l>
+                                </ab>
+                        </div>
+                    </body>
+                </text>
+            </group>
+           
+            <group xml:lang="it"> <!--Testo in italiano delle pagine 8 e 9-->
+                <text>
+                    <body>
+                        <!-- Traduzione pagina 8 -->
+                        <div type="page" n="8" xml:lang="it">
+                            <ab>
+                                8
+                            </ab>
+                            <ab n="1" xml:id="ita_textblock1" corresp="#textblock1">
+                                <lb/>
+                                    <l facs="pg8_riga1_par1" n="1">E nel momento in cui ho l'onore di parlarvi,</l>
+                                <lb/>
+                                    <l facs="pg8_riga2_par1" n="2">sono persuaso, sono a dire il vero assolutamente certo che, malgrado</l>
+                                <lb/>
+                                    <l facs="pg8_riga3_par1" n="3">tutto ciò che ho detto, la denominazione di <emph rend="underline">francese</emph></l> 
+                                <lb/>     
+                                    <l facs="pg8_riga4_par1" n="4">e <emph rend="underline">latino</emph> è infinitamente più forte,</l>
+                                <lb/>
+                                    <l facs="pg8_riga5_par1" n="5">resterà per sempre o assai a lungo più</l> 
+                                <lb/>
+                                    <l facs="pg8_riga6_par1" n="6">influente sulla vostra mente di tutte le istanze che</l>
+                                <lb/>
+                                    <l facs="pg8_riga7_par1" n="7">potrò addurvi come linguista, per riuscire</l>
+                                <lb/>
+                                    <l facs="pg8_riga8_par1" n="8">a far crollare questo dualismo di</l>
+                                <lb/>
+                                    <l facs="pg8_riga9_par1" n="9">cartone, che ci opprime, sotto il nome di</l>
+                                <lb/>
+                                    <l facs="pg8_riga10_par1" n="10"><emph rend="underline">francese</emph> e <emph rend="underline">latino</emph>.</l>
+                            </ab>
+
+                            <ab n="2" xml:id="ita_textblock2" corresp="#textblock2">
+                                    <l facs="pg8_riga10_par1_2">Ci sarà un giorno</l>
+                                <lb/>
+                                    <l facs="pg8_riga11_par1" n="11">un libro speciale e molto interessante da</l> 
+                                <lb/>
+                                    <l facs="pg8_riga12_par1" n="12">scrivere sul ruolo della <emph rend="underline">parola</emph> come</l> 
+                                <lb/>
+                                    <l facs="pg8_riga13_par1" n="13">principale perturbatore della scienza delle parole.</l>
+                            </ab>   
+                            
+                            <ab n="3" xml:id="ita_textblock3" corresp="#textblock3">
+                                <lb/>
+                                    <l facs="pr2_riga1_pg8" n="14"><space/>Tutto l'insieme delle considerazioni</l> 
+                                <lb/>
+                                    <l facs="pr2_riga2_pg8" n="15">di questo genere si riassume per noi</l>
+                                <lb/>
+                                    <l facs="pr2_riga3_pg8" n="16">nel principio <del rend="overstrike">di continuità della lingua</del></l>
+                                <lb/>
+                                    <l facs="pr2_riga4_pg8" n="17">universale dell'<emph rend="underline">assoluta continuità</emph></l> 
+                                <lb/>
+                                    <l facs="pr2_riga5_pg8" n="18">della lingua nel tempo.</l>
+                            </ab>
+
+                            <ab n="4" xml:id="ita_textblock4" corresp="#textblock4">
+                                    <l facs="pr2_riga5_pg8_2">Con questo primo</l>
+                                <lb/>
+                                    <l facs="pr2_riga6_pg8" n="19">principio veniva a combinarsi il secondo,</l>
+                                <lb/>
+                                    <l facs="pr2_riga7_pg8" n="20">quello della <emph rend="underline">continua trasformazione</emph> della</l>
+                                <lb/>
+                                    <l facs="pr2_riga8_pg8" n="21">lingua nel tempo, dipendente essa medesima,</l>
+                                <lb/>
+                                    <l facs="pr2_riga9_pg8" n="22">lo ricordo, da due agenti distinti, l'uno <emph rend="underline">psicologico</emph></l>
+                                <lb/>
+                                    <l facs="pr2_riga10_pg8" n="23">concetrantesi sulla "operazione d'analogia",</l>
+                                <lb/>
+                                    <l facs="pr2_riga11_pg8" n="24">l'altro <emph rend="underline">meccanico</emph>, <emph rend="underline">fisiologico</emph>,</l>
+                            </ab>
+                        </div>
+                        <!-- Traduzione pagina 9 -->
+                        <div type="page" n="9" xml:lang="it">
+                            <ab>   
+                                9
+                            </ab>
+                            <ab n="5" xml:id="ita_textblock5" corresp="#textblock5">
+                                <lb/>
+                                    <l facs="pg9_riga1" n="1"><space/>che ha la sua espressione nei </l>
+                                <lb/>
+                                    <l facs="pg9_riga2" n="2">cambiamenti fonetici.</l>
+                            </ab>
+                            <ab n="6" xml:id="ita_textblock6" corresp="#textblock6">
+                                <lb/>
+                                    <l facs="pg9_riga3" n="3">E che agiscono, inoltre, l'uno</l>
+                                <lb/>
+                                    <l facs="pg9_riga4" n="4">in maniera indipendente</l>
+                                <lb/>
+                                    <l facs="pg9_riga5" n="5">dall'altro, fatti salvi alcuni</l>
+                                <lb/> 
+                                    <l facs="pg9_riga6" n="6">casi molto speciali, assai ben definiti,</l>
+                                <lb/>
+                                    <l facs="pg9_riga7" n="7">ma davvero eccezionali.</l>
+                            </ab>
+
+                            <ab n="7" xml:id="ita_textblock7" corresp="#textblock7">
+                                <lb/>
+                                    <l facs="pg9_riga8" n="8"><space/>Il fattore che noi abbiamo</l>
+                                <lb/>
+                                    <l facs="pg9_riga9" n="9">finora sistematicamente omesso è</l>
+                                <lb/>
+                                    <l facs="pg9_riga10" n="10">quello dello <emph rend="underline">spazio</emph>, della distanza</l>
+                                <lb/>
+                                    <l facs="pg9_riga11" n="11"><emph rend="underline">geografica</emph>, che si viene a combinare con la</l>
+                                <lb/>
+                                    <l facs="pg9_riga12" n="12">distanza <emph rend="underline">cronologica</emph>.</l>
+                            </ab>
+
+                            <ab n="8" xml:id="ita_textblock8" corresp="#textblock8">
+                                <lb/>
+                                    <l facs="p34_riga1_pg9" n="13"><space/>Abbiamo constatato che, dato</l> 
+                                <lb/>
+                                    <l facs="p34_riga2_pg9" n="14">un certo qualsiasi stato di lingua,</l>
+                                <lb/>
+                                    <l facs="p34_riga3_pg9" n="15">in un punto determinato,</l>
+                                <lb/>
+                                    <l facs="p34_riga4_pg9" n="16">per esempio in un villaggio romito delle Alpi, se si ripassa nello stesso luogo</l> 
+                                <lb/>
+                                    <l facs="p34_riga5_pg9" n="17">cento o duecent'anni dopo, questo stato</l>
+                                <lb/>
+                                    <l facs="p34_riga6_pg9" n="18">di lingua è inevitabilmente cambiato,</l>
+                                <lb/>
+                                    <l facs="p34_riga7_pg9" n="19">anche in assenza di ogni causa particolare che potesse</l>
+                                <lb/>
+                                    <l facs="p34_riga8_pg9" n="20">favorire il cambiamento.</l>
+                            </ab>
+
+                            <ab n="9" xml:id="ita_textblock9" corresp="#textblock9">
+                                <l facs="p34_riga9_pg9" n="21">Il cambiamento sopravvenuto sarà del resto riducibile a un certo numero di fenomeni precisi.</l>
+                            </ab>
+                        
+                            <ab n="10" xml:id="ita_textblock10" corresp="#textblock10">
+                                <lb/>
+                                    <l facs="p34_riga10_pg9" n="22"><space/>Ma resta da constatare che, se</l> 
+                                <lb/>
+                                    <l facs="p34_riga11_pg9" n="23">una stessa lingua è diffusa in</l>
+                                <lb/>
+                                    <l facs="p34_riga12_pg9" n="24">un momento dato su un certa estensione</l>
+                                <lb/>
+                                    <l facs="p34_riga13_pg9" n="25">di terriorio, il risultato di questo...</l>
+                            </ab>
+                        </div>
+                    </body>
+                </text>
+            </group>
+        </group>
+
+        <!--Glossario dei termini-->
+        <back>
+            <list type="gloss">
+                <label>
+                    <term xml:lang="fr" xml:id="absolument">absolument</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#absolument" source="https://www.larousse.fr/dictionnaires/francais/absolument">
+                        D'une manière absolue; sans aucune réserve ni limitation
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="dénomination">dénomination</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#dénomination" source="https://www.larousse.fr/dictionnaires/francais/d%C3%A9nomination">
+                        Action de nommer, de donner un nom à quelque chose
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="esprit">esprit</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#esprit" source="https://www.larousse.fr/dictionnaires/francais/esprit">
+                        Partie incorporelle de l'être humain, par opposition au corps, à la matière.
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="instances">instances</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#instances" source="https://www.larousse.fr/dictionnaires/francais/instance">
+                        Toute structure de l'appareil psychique
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="linguiste">linguiste</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#linguiste" source="ontology_F_d_S.owl#linguiste">
+                        Spécialiste en linguistique
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="dualisme">dualisme</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#dualisme" source="https://www.larousse.fr/dictionnaires/francais/dualisme">
+                        Coexistence de deux éléments différents opposés ou complémentaires 
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="livre">livre</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#livre" source="https://www.larousse.fr/dictionnaires/francais/livre">
+                        Assemblage de feuilles imprimées et réunies en un volume, broché ou relié
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="rôle">rôle</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#rôle" source="https://www.larousse.fr/dictionnaires/francais/r%C3%B4le">
+                        Fonction en général
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="mot">mot</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#mot" source="ontology_F_d_S.owl#mot">
+                        Unité complexe mentale et physiologique de la langue; membre de la phrase, unité centrale, la plus fortement délimitée qui soit; fondée sur la valeur et sur l’identité par la valeur ; l&apos;unité d’un mot ne vaut, à tout moment, que par opposition aux autres unités semblables; chaque mot est l&apos;intersection du point de vue diachronique et synchronique (Engler, 35) (Godel, 269)
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="principal">principal</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#principal" source="https://www.larousse.fr/dictionnaires/francais/principal">
+                        Qui prime sur d'autres choses de nature analogue, par son importance, sa valeur, sa taille ou le rôle essentiel qu'il joue à l'intérieur d'un ensemble
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="science_des_mots">science des mots</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#science_des_mots"></gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="considérations">considérations</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#considérations" source="https://www.larousse.fr/dictionnaires/francais/consid%C3%A9ration">
+                        Idées développées, réflexions, observations sur un sujet
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="principe_universel">principe universel</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#principe_universel"></gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="absolue_continuité">absolue continuité de la langue dans le temps</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#absolue_continuité"></gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="principe">principe</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#principe" source="ontology_F_d_S.owl#principe">
+                        V. délimitation (Engler 18)
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="continuelle_transformation">continuelle transformation de la langue dans le temps</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#continuelle_transformation"></gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="agents">agents distincts</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#agents"></gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="psychologique">psychologique</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#psychologique" source="https://www.larousse.fr/dictionnaires/francais/psychologique">
+                        Qui concerne la psychologie, en tant qu'activité professionnelle ou en tant que science.
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="opération">opération d'analogie</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#opération"></gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="mécanique">mécanique</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#mécanique" source="ontology_F_d_S.owl#mécanique1">
+                       Qui a trait aux mouvements physiologiques (Engler, 34)
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="physiologique">physiologique</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#physiologique" source="https://www.larousse.fr/dictionnaires/francais/physiologique">
+                        Relatif à la physiologie.
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="changements">changements phonétiques</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#changements"></gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="indépendante">indépendante</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#indépendante" source="https://www.larousse.fr/dictionnaires/francais/ind%C3%A9pendant">
+                        Qui n'est en aucune façon lié à autre chose, qui est sans rapport avec autre chose
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="facteur">facteur</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#facteur" source="https://www.larousse.fr/dictionnaires/francais/facteur">
+                        S'emploie suivi d'un nom apposé pour indiquer l'élément déterminant qui intervient dans le résultat, dans l'événement 
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="systématiquement">systématiquement</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#systématiquement" source="https://www.larousse.fr/dictionnaires/francais/syst%C3%A9matiquement">
+                        D'une manière systématique, d'après des règles préconçues et coordonnées
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="espace">espace</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#espace" source="https://www.larousse.fr/dictionnaires/francais/espace">
+                        Étendue, surface ou volume dont on a besoin autour de soi
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="géographique">distance géographique</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#géographique"></gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="chronologique">distance chronologique</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#chronologique"></gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="état">état de langue</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#état"></gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="point">point déterminé</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#point"></gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="de_langue">état de langue</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#de_langue"></gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="changé">inévitablment changé</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#changé"></gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="absence">absence</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#absence" source="https://www.larousse.fr/dictionnaires/francais/absence">
+                        Fait pour quelqu'un, quelque chose de ne pas se trouver à l'endroit où l'on s'attend à ce qu'il soit ; temps pendant lequel quelqu'un est absent de ce lieu
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="causes">causes</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#causes" source="ontology_F_d_S.owl#causes">
+                        The phenomenon denoted by SemU_2 is caused by SemU_1
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="particulières">particulières</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#particulières" source="https://www.larousse.fr/dictionnaires/francais/particulier">
+                        Qui est défini, précis, limité
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="changement">changement</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#changement" source="ontology_F_d_S.owl#changement">
+                        Altération, transformation (Engler 15)
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="changement1">changement</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#changement1" source="ontology_F_d_S.owl#changement">
+                        changement analogique ; - morphologique ; - phonétique
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="réductible">réductible</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#réductible" source="https://www.larousse.fr/dictionnaires/francais/r%C3%A9ductible">
+                         Qui peut être ramené à quelque chose de plus simple, de plus intéressant, etc
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="phénomènes">phénomènes</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#phénomènes" source="https://www.larousse.fr/dictionnaires/francais/ph%C3%A9nom%C3%A8ne">
+                        Fait observé, en particulier dans son déroulement ou comme manifestation de quelque chose d'autre 
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="langue">langue</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#langue" source="ontology_F_d_S.owl#langue1">
+                        Idiome, langue déterminée quelconque.(Engler, 32) (Godel, 266)
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="moment">à un moment donné</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#moment"></gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="territoire">territoire</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#territoire" source="https://www.larousse.fr/dictionnaires/francais/territoire">
+                        Portion de l'espace terrestre dépendant d'un État, d'une ville, d'une juridiction ; espace considéré comme un ensemble formant une unité cohérente, physique, administrative et humaine
+                    </gloss>
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="résultant">résultant</term>
+                </label>
+                <item>
+                    <gloss xml:lang="fr" target="#résultant" source="https://www.larousse.fr/dictionnaires/francais/r%C3%A9sultant">
+                        Qui résulte de quelque chose.
+                    </gloss>
+                </item>
+            </list>
+        </back>
+    </text>
+</TEI>

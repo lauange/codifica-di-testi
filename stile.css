@@ -1,0 +1,127 @@
+body {
+	background-image: url("sfondo.jpg");
+	background-attachment: fixed;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+	flex-wrap: nowrap; 
+    height: 450px;
+    padding: 20px;
+    margin-left: 90px;
+}
+
+img {
+    box-shadow: 10px 8px 16px 0 rgba(0,0,0,0.6), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#texts {
+    margin: 2% 5%; 
+    width: 100%;
+    font-size: 130%;
+    line-height: 27px;
+}
+
+.numriga {
+    opacity: 0.7;
+}
+
+button {
+    cursor: pointer;
+    margin: 30px 5px;
+    border: 2px solid black;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 10px 20px 5px 20px;
+    position: relative;
+    box-shadow: 10px 8px 16px 0 rgba(0,0,0,0.9), 0 6px 20px 0 rgba(0,0,0, 0.9);
+    border-radius: 2%;
+    font-size: 11px;
+    width: 200px;
+}
+
+button::before {
+    content: "";
+    height: 100%;
+    width: 0%;
+    background-color: rgba(198, 156, 84, 0.4);
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover::before {
+    width: 100%;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+div#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#footer {
+    margin-top: 50px;
+}
+
+#slide {
+    display: flex;
+    align-self: flex-end;
+}
+
+#slide button {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 1%;
+    margin: none;
+}
+
+.titlephoto {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0 auto 10px auto;
+}
+
+.termine {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+   
+    margin-left: 100px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background:rgba(198, 156, 84, 0.4); 
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(198, 156, 84, 0.4); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:rgba(198, 156, 84, 0.4); 
+}
